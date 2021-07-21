@@ -1,0 +1,32 @@
+@media screen and (min-width: 0px){
+    #header{
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 21px 4%;
+        
+        .logo{
+            width:175.04px;
+        }
+        .menu{
+            width:20px;
+            height:13.33px;
+        }
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    #header{
+        padding: 7.16%;
+    }
+}
+
+// @media screen and (min-width: 1024px) {
+//     #header{
+//         padding: 21px 5.37%;
+//     }
+// }

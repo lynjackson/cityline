@@ -1,0 +1,64 @@
+.home{
+    background-image: url('../../styles/assets/backy.jpeg');
+    height: 98vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 4.34%;
+    box-sizing: border-box;
+    background-position: -522px center;
+}
+
+.headline{
+    font-family: lato;
+    font-weight:700;
+    font-size: 34px;
+    color:white;
+    text-align: left;
+    line-height:44.2px;
+    letter-spacing:-1.3px;
+    margin-bottom:36px;
+}
+
+.sub-headline{
+    font-family: lato;
+    font-weight:400;
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    line-height:23.2px;
+    letter-spacing:-.2px;
+}
+
+@media screen and (min-width: 768px) {
+    .home{
+        padding: 0 7.16%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .home{
+        background-position: 0px 0px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .headline{
+        font-size: 44px;
+        line-height:normal;
+    }
+    .sub-headline{
+        font-size: 23px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .headline{
+        font-size: 65px;
+        line-height:normal;
+    }
+    .sub-headline{
+        font-size: 28px;
+    }
+}
